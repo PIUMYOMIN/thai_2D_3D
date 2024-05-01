@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/thai_2D_3D/static/css/main.e31c8c1f.css",
-    "main.js": "/thai_2D_3D/static/js/main.ad3d40d2.js",
+    "main.css": "/thai_2D_3D/static/css/main.da26a2e4.css",
+    "main.js": "/thai_2D_3D/static/js/main.a59876fc.js",
     "static/media/profile.jpg": "/thai_2D_3D/static/media/profile.a7f23fe8fcdd059f4467.jpg",
+    "static/media/image4.png": "/thai_2D_3D/static/media/image4.e3e405daf4c788a262fb.png",
+    "static/media/image2.png": "/thai_2D_3D/static/media/image2.2ae07aacc28fd270623e.png",
+    "static/media/image1.png": "/thai_2D_3D/static/media/image1.53f9a049bf0d58401c8b.png",
+    "static/media/image3.png": "/thai_2D_3D/static/media/image3.72496587565809483659.png",
     "static/media/slick.svg": "/thai_2D_3D/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/thai_2D_3D/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/thai_2D_3D/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/thai_2D_3D/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/thai_2D_3D/index.html",
-    "main.e31c8c1f.css.map": "/thai_2D_3D/static/css/main.e31c8c1f.css.map",
-    "main.ad3d40d2.js.map": "/thai_2D_3D/static/js/main.ad3d40d2.js.map"
+    "main.da26a2e4.css.map": "/thai_2D_3D/static/css/main.da26a2e4.css.map",
+    "main.a59876fc.js.map": "/thai_2D_3D/static/js/main.a59876fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e31c8c1f.css",
-    "static/js/main.ad3d40d2.js"
+    "static/css/main.da26a2e4.css",
+    "static/js/main.a59876fc.js"
   ]
 }
