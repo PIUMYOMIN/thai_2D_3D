@@ -1,9 +1,8 @@
-import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import Profile from "../pages/Profile";
 import Layout from "../pages/Layouts/Layout";
-import Lottery2D from './../pages/Lottery2D';
+import Lottery2D from "./../pages/Lottery2D";
 import Wallet from "../pages/Wallet";
 import Lottery3D from "../pages/Lottery3D";
 import History from "../pages/History";
@@ -14,7 +13,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
-        path: "/",
+        path: "/thai_2D_3D",
         element: <Home />
       },
       {
