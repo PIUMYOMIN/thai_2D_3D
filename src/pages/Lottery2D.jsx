@@ -1,3 +1,4 @@
+import { react, useEffect, useState } from "react";
 import Lottery2DNumbers from "../components/Lottery2DNumbers";
 
 const Lottery2D = () => {
@@ -11,6 +12,30 @@ const Lottery2D = () => {
       "linear-gradient(180deg, rgba(72,31,219,1) 0%, rgba(9,121,15,1) 100%);"
   };
 
+  const [dateTime, setDateTime] = useState(new Date());
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDateTime(new Date());
+    }, 1000); // update every second
+
+    return () => clearInterval(interval); // cleanup
+  }, []);
+
+  const formatDateTime = date => {
+    const pad = num => String(num).padStart(2, "0");
+
+    const day = pad(date.getDate());
+    const month = pad(date.getMonth() + 1); // Months are 0-based
+    const year = date.getFullYear();
+
+    const hours = pad(date.getHours());
+    const minutes = pad(date.getMinutes());
+    const seconds = pad(date.getSeconds());
+
+    return `${day}/${month}/${year}  ${hours}:${minutes}:${seconds}`;
+  };
+
   return (
     <div
       className="self-stretch flex-1 overflow-hidden flex flex-col items-start justify-start gap-[4px]"
@@ -22,8 +47,9 @@ const Lottery2D = () => {
       >
         <h2 className=" text-6xl">42</h2>
         <div>
-          <span>15/03/2024 /</span>
-          <span> 02:30:51</span>
+          <span className="text-2xl">
+            {formatDateTime(dateTime)}
+          </span>
         </div>
       </div>
       <Lottery2DNumbers />

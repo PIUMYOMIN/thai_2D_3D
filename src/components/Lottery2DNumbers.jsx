@@ -42,8 +42,7 @@ function Lottery2DNumbers() {
   const max = 5000;
   const [value, setValue] = useState(1500); // Backend-driven value
 
-  return (
-    <div className="w-full mb-5">
+  return <div className="mb-5">
       <div className="p-2">
         <div className="overflow-hidden shrink-0 grid lg:grid-cols-10 grid-cols-5 gap-1 py-2 px-2 mt-5 mb-3 box-border text-center">
           <FilledRangeBar min={min} max={max} value={value} label="01" />
@@ -77,7 +76,7 @@ function Lottery2DNumbers() {
           <FilledRangeBar min={min} max={max} value={3700} label="29" />
           <FilledRangeBar min={min} max={max} value={3700} label="30" />
         </div>
-        <div className="my-5 text-white">
+        <div className="my-5 p-2 text-white">
           <div className="flex">
             <span>အရောင်ရှင်းလင်းချက်</span>
             <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 rounded ml-2">
@@ -85,71 +84,56 @@ function Lottery2DNumbers() {
             </button>
           </div>
           <div className="flex flex-wrap">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               150MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               200MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               250MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               300MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               350MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               500MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               1000MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               1500MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               2000MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               2500MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               3000MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded mr-2 my-2">
               5000MMK
             </button>
           </div>
         </div>
         <div class="text-white p-2">
-          <div>
-            <label
-              class="block text-white text-sm font-bold mb-2"
-              for="username"
-            >
+          <div className="overflow-hidden">
+            <label class="block text-white text-sm font-bold mb-2" for="">
               ရွေးချယ်ထားသောဂဏန်းများ
             </label>
-            <input
-              class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-[96%]"
-              id="username"
-              type="text"
-              placeholder=""
-            />
+            <input class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-full" id="" type="text" placeholder="" />
           </div>
-          <div className="my-5">
-            <label
-              class="block text-white text-sm font-bold mb-2"
-              for="username"
-            >
+          <div className="overflow-hidden my-5">
+            <label class="block text-white text-sm font-bold mb-2" for="">
               စုစုပေါင်း ထိုးကြေး
             </label>
-            <input
-              class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-[96%]"
-              id="username"
-              type="text"
-            />
+            <input class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-full" id="" type="text" />
           </div>
         </div>
       </div>
@@ -160,8 +144,7 @@ function Lottery2DNumbers() {
           </button>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 }
 
 export default Lottery2DNumbers;
