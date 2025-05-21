@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Lottery2DNumbers() {
   const backgroundColor = { background: "linear-gradient(180deg, rgba(65,59,172,1) 0%, rgba(9,121,15,1) 100%, rgba(0,212,255,1) 100%)" };
-  return <div className="w-full">
+  return <div className="w-full mb-5">
       <div className="p-2">
-        <div className="overflow-hidden shrink-0 grid lg:grid-cols-10 grid-cols-5 gap-1 py-2 px-2 my-5 box-border text-center">
+        <div className="overflow-hidden shrink-0 grid lg:grid-cols-10 grid-cols-5 gap-1 py-2 px-2 mt-5 mb-3 box-border text-center">
           <Link to="#!" className="rounded-8xs bg-white overflow-hidden shrink-0 flex flex-col justify-center items-center p-2 no-underline">
             <h2 className="">01</h2>
             <div className="rounded-lg bg-limegreen w-full h-[7px] overflow-hidden" />
@@ -592,50 +592,46 @@ function Lottery2DNumbers() {
               အမြန်ရွေး
             </button>
           </div>
-          <div className="flex flex-row justify-between items-center mt-5">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded">
+          <div className="flex flex-wrap">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               150MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               200MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               250MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               300MMK
             </button>
-          </div>
-          <div className="flex flex-row justify-between items-center mt-5">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               350MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               500MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               1000MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               1500MMK
             </button>
-          </div>
-          <div className="flex flex-row justify-between items-center mt-5">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               2000MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               2500MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               3000MMK
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded ml-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded m-2">
               5000MMK
             </button>
           </div>
         </div>
-        <div class="text-white">
+        <div class="text-white p-2">
           <div>
             <label class="block text-white text-sm font-bold mb-2" for="username">
               ရွေးချယ်ထားသောဂဏန်းများ
@@ -648,6 +644,13 @@ function Lottery2DNumbers() {
             </label>
             <input class="shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-[96%]" id="username" type="text" />
           </div>
+        </div>
+      </div>
+      <div className="p-2">
+        <div className="flex justify-center">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-3 py-2 rounded ml-2">
+            ထိုးမည်
+          </button>
         </div>
       </div>
     </div>;
