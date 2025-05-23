@@ -77,7 +77,7 @@ export default function ThaiLotteryResults() {
   if (!results.data) return <div className="text-white text-center p-4">No results available</div>;
 
   return (
-    <div className="space-y-6 p-4 h-screen">
+    <div className="space-y-6 p-4">
       <div className="text-white text-center text-2xl mb-8 font-bold">
         {results.date}
       </div>
