@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaAlignLeft, FaSyncAlt } from "react-icons/fa";
+import { FaRotate } from "react-icons/fa6";
 
 const Navbar = ({ toggleSidebar }) => {
   const cardColor = {
@@ -18,8 +19,8 @@ const Navbar = ({ toggleSidebar }) => {
         onClick={toggleSidebar}
       />
       <div className="relative text-xl font-bold">Lucky Day</div>
-      <Link to="">
-        <FaSyncAlt className="cursor-pointer w-7 h-7 text-white" />
+      <Link to="/thai_2D_3D">
+        <FaRotate className="cursor-pointer w-7 h-7 text-white" />
       </Link>
     </div>
   );

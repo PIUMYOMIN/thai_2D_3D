@@ -8,6 +8,7 @@ const Thailand2DSection = () => {
     background:
       "radial-gradient(circle, rgba(43,142,38,0.7030461842940301) 0%, rgba(46,80,52,1) 100%)"
   };
+
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -22,6 +23,7 @@ const Thailand2DSection = () => {
     const intervalId = setInterval(fetchData, 1000);
     return () => clearInterval(fetchData);
   }, []);
+
   return (
     <div>
       {live && (
@@ -61,7 +63,7 @@ const Thailand2DSection = () => {
             style={cardColor}
           >
             <div>
-            {item?.open_time || "--"} PM
+            {item?.open_time || "--"}
             </div>
             <div className="relative text-center flex items-center justify-center shrink-0 text-11xl font-bold">
             {item?.twod !== "--" ? item?.twod : "Coming"}

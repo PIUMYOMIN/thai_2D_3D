@@ -12,14 +12,14 @@ const Footer = () => {
       "linear-gradient(0deg, rgba(59,27,164,1) 0%, rgba(9,121,15,1) 100%)"
   };
 
-  return <div className="rounded-t-2xl flex flex-row justify-between items-center w-auto p-3 mx-auto border-t-gray-900" style={cardColor}>
-      <Link to="/thai_2D_3D" className="flex flex-col items-center justify-between box-border no-underline">
+  return <div className="w-full rounded-t-2xl flex flex-row justify-between items-center mt-2 mx-auto border-t-gray-900" style={cardColor}>
+      <Link to="/thai_2D_3D" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaHome className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ပင်မစာမျက်နှာ
         </div>
       </Link>
-      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline">
+      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaShoppingBasket className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ပရိုမိုးရှင်း
@@ -31,13 +31,13 @@ const Footer = () => {
           ထီထိုးမည်
         </div>
       </Link>
-      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline">
+      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaGift className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ဘောနပ်စ်
         </div>
       </Link>
-      <Link to="/profile" className="flex flex-col items-center justify-between box-border no-underline">
+      <Link to="/profile" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaRegUser className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ပရိုဖိုင်

@@ -1,5 +1,6 @@
 import { react, useEffect, useState } from "react";
 import Lottery2DNumbers from "../components/Lottery2DNumbers";
+import axios from "axios";
 
 const Lottery2D = () => {
   const backgroundColor = {
@@ -13,11 +14,28 @@ const Lottery2D = () => {
   };
 
   const [dateTime, setDateTime] = useState(new Date());
+  const [live, setLive] = useState(null);
+  const [result, setResult] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const res = await axios.get("https://api.thaistock2d.com/live");
+        setLive(res.data.live);
+        setResult(res.data.result);
+      } catch (error) {
+        console.error("Error fetching live data:", error);
+      }
+    };
+    fetchData();
+    const intervalId = setInterval(fetchData, 1000);
+    return () => clearInterval(fetchData);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setDateTime(new Date());
-    }, 1000); // update every second
+    }, 1000);
 
     return () => clearInterval(interval); // cleanup
   }, []);
@@ -45,7 +63,10 @@ const Lottery2D = () => {
         className="relative w-full flex flex-col justify-center items-center shadow-md shadow-green-500 text-white"
         style={topColor}
       >
-        <h2 className=" text-6xl">42</h2>
+        {live &&
+          <h2 className=" text-6xl">
+            {live.twod}
+          </h2>}
         <div>
           <span className="text-2xl">
             {formatDateTime(dateTime)}

@@ -6,6 +6,7 @@ import Lottery2D from "./../pages/Lottery2D";
 import Wallet from "../pages/Wallet";
 import Lottery3D from "../pages/Lottery3D";
 import History from "../pages/History";
+import Register from "../pages/Register";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/history",
         element: <History />
+      },
+      {
+        path: "/register",
+        element: <Register />
       }
     ]
   }
