@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import Profile from "../pages/Profile";
 import Layout from "../pages/Layouts/Layout";
-import Lottery2D from "./../pages/Lottery2D";
+import TwoDLottery from "./../pages/Lottery2D";
 import Wallet from "../pages/Wallet";
 import Lottery3D from "../pages/Lottery3D";
 import History from "../pages/History";
@@ -25,6 +25,10 @@ const router = createBrowserRouter([
         element: <Profile />
       },
       {
+        path: "/2d-lottery",
+        element: <TwoDLottery />
+      },
+      {
         path: "/2d-daily-history",
         element: <TwoD_Daily_History />
       },
@@ -45,7 +49,7 @@ const router = createBrowserRouter([
         element: <Wallet />
       },
       {
-        path: "/history",
+        path: "/2d-history",
         element: <History />
       },
       {

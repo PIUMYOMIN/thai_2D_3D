@@ -77,9 +77,9 @@ function Lottery2DNumbers() {
           <FilledRangeBar min={min} max={max} value={3700} label="30" />
         </div>
         <div className="my-5 p-2 text-white">
-          <div className="flex">
+          <div className="flex items-center">
             <span>အရောင်ရှင်းလင်းချက်</span>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 rounded ml-2">
+            <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold px-4 py-2 rounded ml-2">
               အမြန်ရွေး
             </button>
           </div>

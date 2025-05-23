@@ -19,10 +19,10 @@ export default function Register() {
     e.target.value = e.target.value.replace(/\D/g, "").slice(0, 12);
   };
 
-  return <div className="w-full h-[85vh] border-2 border-red-600 flex justify-center items-center">
+  return <div className="flex flex-col justify-center items-center h-[82vh]">
       <div className="my-5">
         <form>
-          <div className="w-80 border flex flex-col items-center text-white p-4 rounded-md bg-slate-800">
+          <div className="w-80 flex flex-col items-center text-white p-4 rounded-md bg-slate-800">
             {/* Name */}
             <div className="w-full flex flex-col my-2">
               <label htmlFor="name">နာမည်</label>
