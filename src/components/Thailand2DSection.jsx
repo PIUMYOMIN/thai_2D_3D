@@ -31,7 +31,7 @@ const Thailand2DSection = () => {
           style={cardColor}
         >
           <div className="flex flex-col py-5 items-center justify-center">
-            <div className="flex justify-center item-center text-red-200 text-xl"><div className="text-sm">🔴</div> Live</div>
+            <div className="flex justify-center items-center text-red-200 text-xl"><div className="text-sm">🔴</div> Live</div>
           <div className="text-12xl font-bold text-yellow-400">
             {live.twod}
           </div>
