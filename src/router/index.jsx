@@ -7,6 +7,9 @@ import Wallet from "../pages/Wallet";
 import Lottery3D from "../pages/Lottery3D";
 import History from "../pages/History";
 import Register from "../pages/Register";
+import TwoD_Daily_History from "../pages/TwoD_Daily_History";
+import ThreeD_History from "../pages/ThreeD_History";
+import Thai_Lottery from "../pages/Thai_Lottery";
 
 const router = createBrowserRouter([
   {
@@ -22,12 +25,20 @@ const router = createBrowserRouter([
         element: <Profile />
       },
       {
-        path: "/2d-lottery",
-        element: <Lottery2D />
+        path: "/2d-daily-history",
+        element: <TwoD_Daily_History />
+      },
+      {
+        path: "/3d-history",
+        element: <ThreeD_History />
       },
       {
         path: "/3d-lottery",
         element: <Lottery3D />
+      },
+      {
+        path: "/thai-lottery",
+        element: <Thai_Lottery />
       },
       {
         path: "/wallet",

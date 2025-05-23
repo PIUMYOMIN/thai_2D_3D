@@ -16,30 +16,32 @@ function personal_actions() {
   return <div className="grid grid-cols-2 gap-2 my-2 box-border text-center">
       <Link to="/wallet" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <FaWallet className="text-2xl" />
-        <div className="relative flex items-center shrink-0">Wallet</div>
+        <div className="relative flex items-center shrink-0">ပိုက်ဆံအိတ်</div>
       </Link>
       <Link to="/history" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <FaHistory className="text-2xl" />
         <div className="relative flex items-center justify-center shrink-0">
-          2D History
+          ယနေ့ 2D
         </div>
       </Link>
       <Link to="#!" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <FaRocketchat className="text-2xl" />
-        <div className="relative flex items-center shrink-0">Chat Box</div>
+        <div className="relative flex items-center shrink-0">
+          စကားပြောခန်း
+        </div>
       </Link>
       <Link to="/2d-lottery" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <img className="relative" alt="" src="/vector4.svg" />
-        <div className="relative flex items-center shrink-0">2D</div>
+        <div className="relative flex items-center shrink-0">2D ထိုးမည်</div>
       </Link>
       <Link to="#!" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <FaCalendarAlt className="text-2xl" />
-        <div className="relative flex items-center shrink-0">Calendar</div>
+        <div className="relative flex items-center shrink-0">ပြက္ခဒိန်</div>
       </Link>
       <Link to="/3d-lottery" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <img className="relative" alt="" src="/vector6.svg" />
         <div className="relative flex items-center justify-center shrink-0">
-          3D
+          3D ထိုးမည်
         </div>
       </Link>
       <Link to="#!" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
@@ -48,11 +50,9 @@ function personal_actions() {
           Thaiwan Lottery
         </div>
       </Link>
-      <Link to="#!" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
+      <Link to="/thai-lottery" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <FaGlobeAmericas className="text-2xl" />
-        <div className="relative flex items-center shrink-0">
-          Thai Lottery
-        </div>
+        <div className="relative flex items-center shrink-0">ထိုင်းထီ</div>
       </Link>
     </div>;
 }

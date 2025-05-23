@@ -27,9 +27,9 @@ const Thailand2DSection = () => {
   return (
     <div>
       {live && (
-        <div className="grid grid-cols-2 mt-2 text-white font-mono">
+        <div className="grid grid-cols-2 my-2 text-white font-mono">
         <div
-          className="flex flex-col rounded-8xs box-border shadow-sm shadow-slate-400"
+          className="flex flex-col rounded-l-8xs box-border shadow-sm shadow-slate-400"
           style={cardColor}
         >
           <div className="flex flex-col py-5 items-center justify-center">
@@ -40,7 +40,7 @@ const Thailand2DSection = () => {
           </div>
         </div>
         <div
-          className="flex flex-col justify-center items-center text-xl py-5 rounded-8xs shadow-sm shadow-slate-400"
+          className="flex flex-col justify-center items-center text-xl py-5 rounded-r-8xs shadow-sm shadow-slate-400"
           style={cardColor}
         >
           <div className="flex">
