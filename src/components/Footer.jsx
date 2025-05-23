@@ -19,7 +19,7 @@ const Footer = () => {
           မူလစာမျက်နှာ
         </div>
       </Link>
-      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
+      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline">
         <FaShoppingBasket className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ပရိုမို
@@ -31,7 +31,7 @@ const Footer = () => {
           ထိုးမည်
         </div>
       </Link>
-      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
+      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline">
         <FaGift className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ဘောနပ်စ်
