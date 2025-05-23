@@ -25,39 +25,35 @@ const Thailand2DSection = () => {
   return (
     <div>
       {live && (
-        <div className="overflow-hidden flex flex-row items-center justify-between rounded-8xs text-center font-mono text-white shadow-sm shadow-white">
-          <div
-            className="w-[50%] overflow-hidden shrink-0 flex flex-col items-center justify-between box-border text-xl py-5"
-            style={cardColor}
-          >
-            <div className="relative flex items-center justify-between shrink-0">
-              Live
-            </div>
-            <div className="relative flex items-center justify-center shrink-0 font-bold">
-              { live.twod }
-            </div>
+        <div className="grid grid-cols-2 mt-2 text-white font-mono">
+        <div
+          className="flex flex-col rounded-8xs box-border shadow-sm shadow-slate-400"
+          style={cardColor}
+        >
+          <div className="flex flex-col py-5 items-center justify-center">
+            <div className="flex justify-center item-center text-red-200 text-xl"><div className="text-sm">🔴</div> Live</div>
+          <div className="text-12xl font-bold text-yellow-400">
+            {live.twod}
           </div>
-          <div
-            className="w-[50%] box-border overflow-hidden shrink-0 flex flex-col items-center justify-between border-l-[1px] border-solid border-black text-xl py-5"
-            style={cardColor}
-          >
-            <div className="flex justify-between items-start">
-              <div className="relative">Set</div>
-              <div className="relative ml-3 font-bold">
-                {live.set}
-              </div>
-            </div>
-            <div className="flex justify-between items-start">
-              <div className="relative">Value</div>
-              <div className="relative ml-3 font-bold">
-                {live.value}
-              </div>
-            </div>
           </div>
         </div>
+        <div
+          className="flex flex-col justify-center items-center text-xl py-5 rounded-8xs shadow-sm shadow-slate-400"
+          style={cardColor}
+        >
+          <div className="flex">
+            <div className="relative">Set</div>
+            <div className="relative ml-3 font-bold">{parseInt(live.set.replace(/,/g, '').split('.')[0])}</div>
+          </div>
+          <div className="flex">
+            <div className="relative">Value</div>
+            <div className="relative ml-3 font-bold">{parseInt(live.value.replace(/,/g, '').split('.')[0])}</div>
+          </div>
+        </div>
+      </div>
       )};
 
-      <div className="flex flex-wrap gap-2 justify-between my-2 text-white font-mono">
+      <div className="flex flex-wrap gap-2 justify-between mb-2 text-white font-mono">
         {[result[0], result[1]].map((item, idx) =>
           <div
             key={idx}
@@ -65,7 +61,7 @@ const Thailand2DSection = () => {
             style={cardColor}
           >
             <div>
-            {item?.open_time || "--"}
+            {item?.open_time || "--"} PM
             </div>
             <div className="relative text-center flex items-center justify-center shrink-0 text-11xl font-bold">
             {item?.twod !== "--" ? item?.twod : "Coming"}
