@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/thai_2D_3D/static/css/main.ea8f6afa.css",
-    "main.js": "/thai_2D_3D/static/js/main.9512e1ec.js",
+    "main.css": "/thai_2D_3D/static/css/main.d3fd897e.css",
+    "main.js": "/thai_2D_3D/static/js/main.fc55da55.js",
     "static/media/profile.jpg": "/thai_2D_3D/static/media/profile.a7f23fe8fcdd059f4467.jpg",
     "static/media/image4.png": "/thai_2D_3D/static/media/image4.e3e405daf4c788a262fb.png",
     "static/media/image2.png": "/thai_2D_3D/static/media/image2.2ae07aacc28fd270623e.png",
@@ -12,11 +12,11 @@
     "static/media/slick.ttf": "/thai_2D_3D/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/thai_2D_3D/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/thai_2D_3D/index.html",
-    "main.ea8f6afa.css.map": "/thai_2D_3D/static/css/main.ea8f6afa.css.map",
-    "main.9512e1ec.js.map": "/thai_2D_3D/static/js/main.9512e1ec.js.map"
+    "main.d3fd897e.css.map": "/thai_2D_3D/static/css/main.d3fd897e.css.map",
+    "main.fc55da55.js.map": "/thai_2D_3D/static/js/main.fc55da55.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8f6afa.css",
-    "static/js/main.9512e1ec.js"
+    "static/css/main.d3fd897e.css",
+    "static/js/main.fc55da55.js"
   ]
 }
