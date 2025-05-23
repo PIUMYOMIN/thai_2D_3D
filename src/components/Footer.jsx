@@ -16,19 +16,19 @@ const Footer = () => {
       <Link to="/thai_2D_3D" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaHome className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
-          ပင်မစာမျက်နှာ
+          မူလစာမျက်နှာ
         </div>
       </Link>
       <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaShoppingBasket className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
-          ပရိုမိုးရှင်း
+          ပရိုမို
         </div>
       </Link>
       <Link to="/2d-lottery" className="box-border overflow-hidden shrink-0 flex flex-col items-center justify-center no-underline">
         <FaPlayCircle className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
-          ထီထိုးမည်
+          ထိုးမည်
         </div>
       </Link>
       <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
