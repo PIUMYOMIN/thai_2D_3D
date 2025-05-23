@@ -53,7 +53,7 @@ const Thailand2DSection = () => {
           </div>
         </div>
       </div>
-      )};
+      )}
 
       <div className="flex flex-wrap gap-2 justify-between mb-2 text-white font-mono">
         {[result[0], result[1]].map((item, idx) =>
