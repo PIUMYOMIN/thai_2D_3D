@@ -18,10 +18,10 @@ function personal_actions() {
         <FaWallet className="text-2xl" />
         <div className="relative flex items-center shrink-0">Wallet</div>
       </Link>
-      <Link to="history" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
+      <Link to="/history" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
         <FaHistory className="text-2xl" />
         <div className="relative flex items-center justify-center shrink-0">
-          History
+          2D History
         </div>
       </Link>
       <Link to="#!" className="rounded-8xs overflow-hidden shrink-0 flex flex-row items-center justify-between p-2 box-border w-full no-underline text-white shadow-sm shadow-slate-400" style={cardColor}>
