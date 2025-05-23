@@ -24,7 +24,7 @@ const Lottery3D = () => {
             <Link to="/thai_2D_3D" type="button" className="w-full sm:w-1/2 py-3 rounded-md bg-red-600 hover:bg-red-700 transition-colors cursor-pointer no-underline text-center text-white">
               မထိုးတော့ပါ
             </Link>
-            <button type="button" className="w-full sm:w-1/2 py-3 rounded-md bg-blue-500 hover:bg-blue-600 transition-colors cursor-pointer text-white">
+            <button type="button" className="w-full sm:w-1/2 py-3 rounded-md bg-blue-500 hover:bg-blue-600 transition-colors cursor-pointer text-white text-base">
               ငွေချေမည်
             </button>
           </div>
