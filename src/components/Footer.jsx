@@ -19,19 +19,19 @@ const Footer = () => {
           မူလစာမျက်နှာ
         </div>
       </Link>
-      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline">
+      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaShoppingBasket className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ပရိုမို
         </div>
       </Link>
-      <Link to="/2d-lottery" className="box-border overflow-hidden shrink-0 flex flex-col items-center justify-center no-underline">
+      <Link to="/2d-lottery" className="box-border overflow-hidden shrink-0 flex flex-col items-center justify-center no-underline px-3">
         <FaPlayCircle className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ထိုးမည်
         </div>
       </Link>
-      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline">
+      <Link to="#!" className="flex flex-col items-center justify-between box-border no-underline px-3">
         <FaGift className="text-2xl text-white my-2" />
         <div className="relative flex items-center justify-center shrink-0 text-sm text-white">
           ဘောနပ်စ်
