@@ -18,21 +18,21 @@ function Wallet() {
         </p>
       </div>
       <div className="flex items-center justify-between px-2 py-4 rounded-b-3xl shadow-md shadow-slate-700">
-        <Link to="#!" className="overflow-hidden flex flex-col items-center justify-center w-20 no-underline text-white">
+        <Link to="/deposite" className="overflow-hidden flex flex-col items-center justify-center gap-1 w-20 no-underline text-white">
           <FaArrowDown className="relative w-[36.1px] h-[37px]" />
-          <div>Deposite</div>
+          <div>ငွေသွင်း</div>
         </Link>
-        <Link to="#!" className="overflow-hidden flex flex-col items-center justify-center w-20 no-underline text-white">
+        <Link to="#!" className="overflow-hidden flex flex-col items-center justify-center gap-1 w-20 no-underline text-white">
           <FaArrowUp className="relative w-[36.1px] h-[37px]" />
-          <div>Witddraw</div>
+          <div>ငွေထုတ်</div>
         </Link>
-        <Link to="#!" className="overflow-hidden flex flex-col items-center justify-center w-20 no-underline text-white">
+        <Link to="#!" className="overflow-hidden flex flex-col items-center justify-center gap-1 w-20 no-underline text-white">
           <FaCreditCard className="relative w-[36.1px] h-[37px]" />
-          <div>Bank Acc</div>
+          <div>ဘဏ်</div>
         </Link>
-        <Link to="#!" className="overflow-hidden flex flex-col items-center justify-center w-20 no-underline text-white">
+        <Link to="#!" className="overflow-hidden flex flex-col items-center justify-center gap-1 w-20 no-underline text-white">
           <FaHistory className="relative w-[36.1px] h-[37px]" />
-          <div>History</div>
+          <div>မှတ်တမ်း</div>
         </Link>
       </div>
       <div className="relative overflow-x-hidden mt-2">

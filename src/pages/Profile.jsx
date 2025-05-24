@@ -1,69 +1,80 @@
 import React from "react";
-import profile from "../assets/img/profile.jpg"
+import profile from "../assets/img/profile.jpg";
 import {
-  FaEnvelope,
-  FaPhoneAlt,
+  FaListOl,
+  FaSun,
+  FaList,
+  FaPiggyBank,
+  FaKey,
+  FaTag,
+  FaQuestion,
+  FaRegTimesCircle,
+  FaDownload,
+  FaSignOutAlt,
+  FaHome,
+  FaUser,
+  FaUserCircle
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Profile = () => {
-  const cardColor = { background: "linear-gradient(180deg, rgba(3,29,3,1) 0%, rgba(16,188,19,1) 100%, rgba(0,0,0,1) 100%)" };
+  const cardColor = {
+    background:
+      "linear-gradient(180deg, rgba(3,29,3,1) 0%, rgba(16,188,19,1) 100%, rgba(0,0,0,1) 100%)"
+  };
   return (
     <>
-    <div className="relative self-stretch overflow-hidden shrink-0 flex flex-col items-center justify-between">
-        <div className="relative flex flex-col justify-between items-center rounded-t-none rounded-b-31xl w-full h-[372px] overflow-hidden shrink-0 mix-blend-normal text-white py-3 shadow-sm shadow-slate-200" style={cardColor}>
-          <div className="flex flex-col justify-center items-center">
-            <div className="flex justify-center items-center rounded-full bg-white w-[161px] h-[157px] overflow-hidden">
-              <img className="w-[183px] h-[157px] object-cover" alt="user_profile" src={profile} />
+      <div className="relative self-stretch overflow-hidden shrink-0">
+        <div className="flex text-white py-3">
+          <div className="flex items-center gap-3">
+            <div>
+              <FaUserCircle className="text-5xl" />
             </div>
-            <div className="flex flex-col justify-center items-center">
-              <h2>Aung Khaing</h2>
-              <small>Premium account</small>
-            </div>
-          </div>
-          <div className="absolute top-[274.7px] w-full px-10 overflow-hidden flex flex-row items-center justify-between box-border">
-            <div className="relative h-[68px] overflow-hidden shrink-0">
-              <div className="flex flex-row items-center gap-1 justify-center border-l-2">
-                <h2>
-                  <b>120000 </b>
-                </h2>
-                <span className="mt-2">(ks)</span>
-              </div>
-            </div>
-            <div className="relative h-[68px] overflow-hidden shrink-0">
-              <div className="flex flex-row items-center gap-1 justify-center">
-                <h2>
-                  <b>30000 </b>
-                </h2>
-                <span className="mt-2"> (ks)</span>
-              </div>
+            <div className="flex flex-col text-xl">
+              <div>Aung Khaing</div>
+              <div>09792115547</div>
             </div>
           </div>
         </div>
-        <div className="flex flex-col w-full h-screen mt-5 gap-4 text-white">
-          <div className="overflow-hidden flex flex-row items-start justify-start gap-2 px-5">
-            <FaPhoneAlt className="relative w-[42px] h-[41px] overflow-hidden shrink-0" />
-            <div className="overflow-hidden shrink-0 flex flex-col items-center justify-start">
-              <div className="relative flex items-center w-[172px]">
-                Mobile Number
-              </div>
-              <div className="relative flex items-center w-[166px] h-5 shrink-0">
-                09-845184547
-              </div>
-            </div>
-          </div>
-          <div className="overflow-hidden flex flex-row items-start justify-start gap-2 px-5">
-            <FaEnvelope className="relative w-[42px] h-[41px] overflow-hidden shrink-0" />
-            <div className="w-[172px] h-16 overflow-hidden shrink-0 flex flex-col items-center justify-start">
-              <div className="relative flex items-center w-[172px]">
-                Email
-              </div>
-              <div className="relative flex items-center w-[166px] h-5 shrink-0">
-                useremail@gmail.com
-              </div>
-            </div>
-          </div>
+        <div className="flex flex-col gap-2">
+          <Link
+            to="#!"
+            className="flex flex-row items-center py-1 px-4 rounded text-slate-300 bg-slate-900 hover:bg-gray-800 no-underline"
+          >
+            <FaKey />
+            <span className="mt-1 ml-2">လျို့ဝှတ်နံပါတ်ပြောင်းရန်</span>
+          </Link>
+          <Link
+            to="#!"
+            className="flex flex-row items-center py-1 px-4 rounded text-slate-300 bg-slate-900 hover:bg-gray-800 no-underline"
+          >
+            <FaTag />
+            <span className="mt-1 ml-2">ပရိုမိုးရှင်း</span>
+          </Link>
+          <Link
+            to="#!"
+            className="flex flex-row items-center py-1 px-4 rounded text-slate-300 bg-slate-900 hover:bg-gray-800 no-underline"
+          >
+            <FaQuestion />
+            <span className="mt-1 ml-2">အကြံပြုရန်</span>
+          </Link>
+          <Link
+            to="#!"
+            className="flex flex-row items-center py-1 px-4 rounded text-slate-300 bg-slate-900 hover:bg-gray-800 no-underline"
+          >
+            <FaDownload />
+            <span className="mt-1 ml-2">ဗားရှင်း - 1.0.0</span>
+          </Link>
+          <Link
+            to="#!"
+            className="flex flex-row items-center py-1 px-4 rounded text-slate-300 bg-slate-900 hover:bg-gray-800 no-underline"
+          >
+            <FaSignOutAlt />
+            <span className="mt-1 ml-2">အကောင့်ထွက်ရန်</span>
+          </Link>
         </div>
-      </div></>
-  )
+      </div>
+    </>
+  );
 };
 
 export default Profile;

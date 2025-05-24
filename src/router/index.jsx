@@ -10,6 +10,7 @@ import Register from "../pages/Register";
 import TwoD_Daily_History from "../pages/TwoD_Daily_History";
 import ThreeD_History from "../pages/ThreeD_History";
 import Thai_Lottery from "../pages/Thai_Lottery";
+import Deposite from "../pages/Deposite";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const router = createBrowserRouter([
       {
         path: "/2d-history",
         element: <History />
+      },
+      {
+        path: "/deposite",
+        element: <Deposite />
       },
       {
         path: "/register",

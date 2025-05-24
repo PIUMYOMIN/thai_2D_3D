@@ -22,7 +22,7 @@ function Sidebar({ isSidebarOpen, closeSidebar }) {
     background:
       "radial-gradient(circle, rgba(43,142,38,0.7030461842940301) 0%, rgba(46,80,52,1) 100%)"
   };
-  return <div className={`absolute bg-dark text-white w-64 h-[85%] p-4 z-10 transition-all duration-300 top-16 rounded-r-lg ${isSidebarOpen ? "left-0" : "left-[-100%]"}`}>
+  return <div className={`absolute mt-16 bg-slate-800 rounded-tr-lg inset-y-0 w-64 p-4 z-50 transition-all duration-300 ${isSidebarOpen ? "left-0 opacity-100" : "-left-72 opacity-0"}`}>
       <div className="relative">
         <div className="flex flex-col gap-2">
           <div className="py-2 px-4 text-slate-300 flex flex-col justify-center items-center overflow-hidden rounded-full">
@@ -88,7 +88,7 @@ function Sidebar({ isSidebarOpen, closeSidebar }) {
           </Link>
         </div>
         <div>
-          <button className={`absolute flex justify-center items-center w-6 h-6 rounded-full text-black top-[-20px] right-[-20px] cursor-pointer`} onClick={closeSidebar}>
+          <button className="absolute -right-6 top-1 flex justify-center items-center w-6 h-6 rounded-full cursor-pointer" onClick={closeSidebar}>
             <FaRegTimesCircle />
           </button>
         </div>
