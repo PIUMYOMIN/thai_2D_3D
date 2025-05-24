@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/thai_2D_3D/static/css/main.7711934e.css",
-    "main.js": "/thai_2D_3D/static/js/main.4f33c2ee.js",
+    "main.css": "/thai_2D_3D/static/css/main.5bd80dd7.css",
+    "main.js": "/thai_2D_3D/static/js/main.21e38225.js",
     "static/media/profile.jpg": "/thai_2D_3D/static/media/profile.a7f23fe8fcdd059f4467.jpg",
     "static/media/image4.png": "/thai_2D_3D/static/media/image4.e3e405daf4c788a262fb.png",
     "static/media/image2.png": "/thai_2D_3D/static/media/image2.2ae07aacc28fd270623e.png",
     "static/media/image1.png": "/thai_2D_3D/static/media/image1.53f9a049bf0d58401c8b.png",
+    "static/media/Ayeyar_pay.png": "/thai_2D_3D/static/media/Ayeyar_pay.abcd92395d77e995a138.png",
     "static/media/image3.png": "/thai_2D_3D/static/media/image3.72496587565809483659.png",
+    "static/media/Wave_pay.png": "/thai_2D_3D/static/media/Wave_pay.19a1c90f0d80a307d9c5.png",
+    "static/media/Kpay.jpeg": "/thai_2D_3D/static/media/Kpay.d60741bff108faf392b1.jpeg",
     "static/media/slick.svg": "/thai_2D_3D/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/thai_2D_3D/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/thai_2D_3D/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/thai_2D_3D/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/thai_2D_3D/index.html",
-    "main.7711934e.css.map": "/thai_2D_3D/static/css/main.7711934e.css.map",
-    "main.4f33c2ee.js.map": "/thai_2D_3D/static/js/main.4f33c2ee.js.map"
+    "main.5bd80dd7.css.map": "/thai_2D_3D/static/css/main.5bd80dd7.css.map",
+    "main.21e38225.js.map": "/thai_2D_3D/static/js/main.21e38225.js.map"
   },
   "entrypoints": [
-    "static/css/main.7711934e.css",
-    "static/js/main.4f33c2ee.js"
+    "static/css/main.5bd80dd7.css",
+    "static/js/main.21e38225.js"
   ]
 }
